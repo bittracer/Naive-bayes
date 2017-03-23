@@ -22,12 +22,12 @@ public class Naive {
 		do {
 			System.out.print("Please Enter the valid training data set name:");
 			trfileName = in.nextLine();
-		} while (!new File("/Users/bharatjain/Desktop/naive/" + trfileName).exists());
+		} while (!new File(trfileName).exists());
 
 		do {
 			System.out.print("Enter the valid testing data set name:");
 			tefileName = in.nextLine();
-		} while (!new File("/Users/bharatjain/Desktop/naive/" + tefileName).exists());
+		} while (!new File(tefileName).exists());
 
 		try {
 

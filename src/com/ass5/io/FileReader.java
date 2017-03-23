@@ -77,8 +77,6 @@ public class FileReader {
 			}
 			uniqueConbination.put(_columnList.getKey(), _str);
 		}
-		System.out.println(uniqueConbination);
-
 	}
 
 	/**
