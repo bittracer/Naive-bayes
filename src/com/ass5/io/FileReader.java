@@ -13,14 +13,6 @@ import java.util.Map;
  * @author bharatjain
  *
  */
-/**
- * @author bharatjain
- *
- */
-/**
- * @author bharatjain
- *
- */
 public class FileReader {
 
 	public static Map<Integer, List<String>> transaction = new HashMap<Integer, List<String>>();
@@ -81,6 +73,7 @@ public class FileReader {
 
 	/**
 	 * @param attr
+	 * Counts the target attribute 
 	 */
 	public static void countTargetAttribute(String attr) {
 
@@ -101,6 +94,7 @@ public class FileReader {
 	/**
 	 * @param string
 	 * @throws IOException
+	 * Reads the Test Data Set
 	 */
 	public static void readTestDataSet(String string) throws IOException {
 		
